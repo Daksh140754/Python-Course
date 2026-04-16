@@ -1,0 +1,6 @@
+print("Hello")
+print(10)
+print("Hello",10)
+print("Hello World \n")
+print("Hello" , end= "+")
+print("Hello")
