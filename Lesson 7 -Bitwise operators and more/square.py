@@ -1,3 +1,4 @@
-number=int(input("Enter a number to calculate its sqaure root:"))
-square_root=number**2
-print("The square root is:",square_root)
+import math
+num=int(input("Enter your number:"))
+square_root=math.sqrt(num)
+print(square_root)
