@@ -1,8 +1,8 @@
-"""character=input("Enter your character:")
-if (character>="a" and character<="z")==(character>="A" and character<="Z"):
-    print("The character is not an alphabet")
+character=input("Enter your character:")
+if (character>="a" and character<="z")or(character>="A" and character<="Z"):
+    print(f"'{character}' is an alphabet")
 else:
-    print("The character is an alphabet")"""
+    print(f"'{character}'is not an alphabet")
 
 
 
