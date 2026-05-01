@@ -15,4 +15,4 @@ else:
         place_value = place_value * 10
         num = num // 2
     
-    print(f"The binary form of {original_num} is: {binary_result}")
+    print(f"The binary form of {original_num} is: {binary_result}") 
