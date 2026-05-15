@@ -15,6 +15,6 @@ print(tuple3.count(5))
 
 tuple4=(5 , 6 , 2 , 20 , 8 , 6 , 4 , 8)
 print(tuple4[:6])
-print(tuple4[3:])
+print(tuple4[3:])  immutable
 
 
