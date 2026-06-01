@@ -1,13 +1,19 @@
-class pair_elements:
+import math
 
-    def twosum(self , nums , target):
-        lookup= {}
+class Circle:
 
-    for i , num in enumerate(nums):
-        if target - num in lookup:
-            return (lookup [target - num] , i )
-        lookup[num] = i
-
-value = int (input("Enter your value for which you want to make this search:"))
-print("index=%d , index2=%d" %
-      pair_elements().twosum((10 , 20 , 30 , 40 , 50 , 60 , 70) , value))
+    def __init__(self, radius):
+        
+         self.radius = radius
+        
+    def calculate_area(self):
+       
+        return math.pi * (self.radius ** 2)
+        
+    def calculate_perimeter(self):
+        
+        return 2 * math.pi * self.radius
+my_circle = Circle(radius=10)
+print(f"Radius of the circle: {my_circle.radius}")
+print(f"Area of the circle:   {my_circle.calculate_area():.2f}")
+print(f"Perimeter of the circle: {my_circle.calculate_perimeter():.2f}")
