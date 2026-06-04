@@ -17,7 +17,7 @@ def main():
 
     x,y = 30 , 30
     sprite_width , sprite_height = 60 , 60
-    clock = pygame.time.clock()
+    clock = pygame.time.Clock()
     done= False
     while not done:
         for event in pygame.event.get():
@@ -43,14 +43,14 @@ def main():
 
         screen.fill((0 , 0 , 0))
         pygame.draw.rect(screen , current_color , 
-                         (x , y , sprite_width , sprite_height)
+                         (x , y , sprite_width , sprite_height))
         pygame.display.flip()
-         clock.tick(90)
+        clock.tick(90)
 
     pygame.quit()
 
 if __name__ == "__main__":
-main()                         
+    main()                         
                         
 
               
